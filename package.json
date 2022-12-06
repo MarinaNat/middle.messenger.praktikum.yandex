@@ -1,0 +1,22 @@
+{
+  "name": "messanger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/pages/index.hbs --no-cache",
+    "build": "parcel build src/pages/index.hbs --no-cache && node ./server.js",
+    "serve": "serve -s dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "parsel": "^0.3.0",
+    "postcss-import": "^15.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
