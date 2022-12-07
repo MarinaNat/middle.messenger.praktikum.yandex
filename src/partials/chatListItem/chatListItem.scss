@@ -1,4 +1,4 @@
-@import '../../styles/variables';
+@import "../../styles/variables";
 
 .chat-list-item {
   display: flex;
@@ -14,6 +14,7 @@
     flex-direction: column;
     flex-grow: 1;
     height: 100%;
+    width: 100px;
 
     &-part {
       display: flex;
@@ -43,12 +44,14 @@
     }
 
     &-unread {
-      min-width: 1.2vw;
-      min-height: 2.8vh;
-      text-align: center;
-      background-color: $color-darkgrey;
+      display: flex;
+      min-width: 2vw;
+      justify-content: center;
+      align-items: center;
+      min-height: 2vw;
+      background-color: #9e9e9e;
       color: white;
-      border-radius: 10px;
+      border-radius: 50%;
     }
   }
 }
