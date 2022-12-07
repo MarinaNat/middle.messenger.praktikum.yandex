@@ -6,6 +6,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #1e1d1d;
+	height: 100vh;
 }
 
 .error__wrapper {
@@ -14,13 +16,19 @@
 	align-items: center;
 }
 
-.error__name {
+.error__title {
 	margin-bottom: 3.5vh;
 	font-size: var(--fs-error-name);
 	font-weight: bold;
 }
 
-.error__descr {
+.error__text {
 	font-size: var(--fs-error-text);
 	font-weight: bold;
+}
+
+.error__link {
+	font-size: var(--fs-error-link);
+	font-weight: bold;
+	color: var(--color-error-link);
 }

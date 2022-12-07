@@ -5,4 +5,8 @@
 	--fs-headers: 18px;
 	--fs-error-name: 48px;
 	--fs-error-text: 24px;
+	--fs-error-link: 11px;
+
+	--color-text: #e2e2e4;
+	--color-error-link: #3369f3;
 }
