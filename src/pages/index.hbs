@@ -1,14 +1,29 @@
+---
+title: Вход
+header:
+  text: Авторизация
+inputs:
+  - inputName: login
+    labelName: Логин
+    type: text
+  - inputName: password
+    labelName: Пароль
+    type: password
+button:
+  ref: ./chat.hbs
+  text: Войти
+link:
+  ref: ./register.hbs
+  text: Регистрация
+---
+{{!< base}}
+
 <ul>
-	<li>
-		<a href="./500.hbs">500 page</a>
-	</li>
-	<li>
-		<a href="./404.hbs">404 page</a>
-	</li>
-	<li>
-		<a href="./signin.hbs">Авторизация</a>
-	</li>
-	<li>
-		<a href="./signup.hbs">Регистрация</a>
-	</li>
+  <li><a href="./error500.hbs">500 page</a></li>
+  <li><a href="./error404.hbs">404 page</a></li>
+	<li><a href="./chat.hbs">Чат</a></li>
+  <li><a href="./signin.hbs">Авторизация</a></li>
+  <li><a href="./signup.hbs">Регистрация</a></li>
+	<li><a href="./profile.hbs">Профиль</a></li>
+  {{!-- <li><a href="./registre.hbs">Регистрация</a></li> --}}
 </ul>

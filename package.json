@@ -1,23 +1,27 @@
 {
-  "name": "messanger",
+  "name": "practicum_messager",
   "version": "1.0.0",
-  "description": "messenger.praktikum.yandex",
+  "description": "",
   "scripts": {
-    "dev": "parcel serve src/pages/index.hbs --no-cache",
-    "start": "parcel build src/pages/index.hbs && node ./server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/pages/index.hbs --no-cache && parcel watch ./*",
+    "build": "parcel build src/pages/index.hbs --no-cache --public-url ./",
+    "start": "node ./server.js"
   },
-  "keywords": [],
-  "author": "Natalina Marina",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaNat/middle.messenger.praktikum.yandex.git"
+  },
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@anikin/parcel-transformer-handlebars": "^1.0.2",
-    "parcel": "^2.8.0",
-    "postcss": "^8.4.19",
-    "postcss-import": "^15.0.1",
-    "postcss-nested": "^6.0.0"
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
