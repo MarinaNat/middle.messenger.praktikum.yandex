@@ -1,8 +1,7 @@
 {
   "name": "messanger",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "messenger.praktikum.yandex",
   "scripts": {
     "dev": "parcel serve src/pages/index.hbs --no-cache",
     "build": "parcel build src/pages/index.hbs && node ./server.js"
