@@ -1,49 +1,37 @@
 ---
-data: {
-    header: 'Регистрация',
-    fields: [{
-        fieldLabel: Почта,
-        fieldName: 'email',
-        fieldType: 'text'
-    },
-    {
-        fieldLabel: Логин,
-        fieldName: 'login',
-        fieldType: 'text'
-    },
-    {
-        fieldLabel: Имя,
-        fieldName: 'first_name',
-        fieldType: 'text'
-    },
-    {
-        fieldLabel: Фамилия,
-        fieldName: 'second_name',
-        fieldType: 'text'
-    },
-    {
-        fieldLabel: Телефон,
-        fieldName: 'phone',
-        fieldType: 'text'
-    },
-    {
-        fieldLabel: Пароль,
-        fieldName: 'password',
-        fieldType: 'password'
-    },
-	{
-        fieldLabel: Пароль (ещё раз),
-        fieldName: 'password repeat',
-        fieldType: 'password'
-    }
-	],
-    button: {
-        type: 'submit',
-        text: 'Зарегистрироваться'
-    },
-    subButton: 'Войти',
-}
+title: Регистрация
+header:
+    text: Регистрация
+inputs:
+  - inputName: email
+    labelName: Email
+    type: email
+  - inputName: login
+    labelName: Логин
+    type: text
+  - inputName: first_name
+    labelName: Имя
+    type: text
+  - inputName: second_name
+    labelName: Фамилия
+    type: text
+  - inputName: phone
+    labelName: Телефон
+    type: tel
+  - inputName: password
+    labelName: Пароль
+    type: password
+  - inputName: password
+    labelName: Пароль (ещё раз)
+    type: password
+
+button:
+    ref: ./index.hbs
+    text: Регистрация
+link:
+    ref: ./index.hbs
+    text: Вход
 ---
 
-{{!< desktop}}
-{{> form data=data}}
+{{!< base}}
+{{> modules/form/form}}

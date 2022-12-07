@@ -1,23 +1,21 @@
 ---
-data: {
-    header: 'Вход',
-    fields: [{
-        fieldLabel: Логин,
-        fieldName: 'login',
-        fieldType: 'text'
-    }, 
-    {
-        fieldLabel: Пароль,
-        fieldName: 'password',
-        fieldType: 'password'
-    }],
-    button: {
-        type: 'submit',
-        text: 'Войти'
-    },
-    subButton: 'Нет аккаунта?'
-}
+title: Авторизация
+header:
+  text: Авторизация
+inputs:
+  - inputName: login
+    labelName: Логин
+    type: text
+  - inputName: password
+    labelName: Пароль
+    type: password
+button:
+  ref: ./index.hbs
+  text: Авторизоваться
+link:
+  ref: ./index.hbs
+  text: Вход
 ---
 
-{{!< default}}
-{{> form data=data}}
+{{!< base}}
+{{> modules/form/form}}
