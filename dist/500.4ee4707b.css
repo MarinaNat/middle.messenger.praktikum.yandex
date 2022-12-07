@@ -28,12 +28,13 @@
 
 .error__title {
   font-size: var(--fs-error-name);
-  margin-bottom: 3.5vh;
+  margin: 0 0 20px;
   font-weight: bold;
 }
 
 .error__text {
   font-size: var(--fs-error-text);
+  margin: 0 0 69px;
   font-weight: bold;
 }
 

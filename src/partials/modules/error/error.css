@@ -17,7 +17,8 @@
 }
 
 .error__title {
-	margin-bottom: 3.5vh;
+	margin: 0;
+	margin-bottom: 20px;
 	font-size: var(--fs-error-name);
 	font-weight: bold;
 }
@@ -25,6 +26,8 @@
 .error__text {
 	font-size: var(--fs-error-text);
 	font-weight: bold;
+	margin: 0;
+	margin-bottom: 69px;
 }
 
 .error__link {
