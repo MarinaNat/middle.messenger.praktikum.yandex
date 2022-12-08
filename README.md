@@ -10,7 +10,7 @@
 
 - `npm run dev` — запуск версии для разработчика,
 - `npm run build` — сборка проекта,
-- `npm run dev` — запуск на сервере http://localhot:3000.
+- `npm run start` — запуск на сервере http://localhot:3000.
 
 
 **Структура:**  

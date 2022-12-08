@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "parcel src/pages/index.hbs --no-cache && parcel watch ./*",
     "build": "parcel build src/pages/index.hbs --no-cache --public-url ./",
-    "start": "node ./server.js",
+    "start": "concurrently \"node ./server.js\" \"parcel watch static/*.hbs --no-cache\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
