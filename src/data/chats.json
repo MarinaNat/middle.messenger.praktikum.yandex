@@ -7,7 +7,8 @@
       "messageDate": "10:49",
       "check_sent": false,
       "check_read": false,
-      "unread": 2
+      "unread": 2,
+      "active": false
     },
     {
       "avatarSrc": "../../static/img/profile/avatar-default.png",
@@ -16,7 +17,8 @@
       "messageDate": "12:00",
       "check_sent": false,
       "check_read": false,
-      "unread": null
+      "unread": null,
+      "active": false
     },
     {
       "avatarSrc": "../../static/img/profile/avatar-default.png",
@@ -25,7 +27,8 @@
       "messageDate": "15:12",
       "check_sent": false,
       "check_read": false,
-      "unread": 4
+      "unread": 4,
+      "active": false
     },
     {
       "avatarSrc": "../../static/img/profile/avatar-default.png",
@@ -34,7 +37,8 @@
       "messageDate": "Пт",
       "check_sent": false,
       "check_read": false,
-      "unread": null
+      "unread": null,
+      "active": true
     },
     {
       "avatarSrc": "../../static/img/profile/avatar-default.png",
@@ -43,7 +47,8 @@
       "messageDate": "Ср",
       "check_sent": false,
       "check_read": false,
-      "unread": null
+      "unread": null,
+      "active": false
     },
     {
       "avatarSrc": "../../static/img/profile/avatar-default.png",
@@ -52,7 +57,8 @@
       "messageDate": "Пн",
       "check_sent": false,
       "check_read": false,
-      "unread": null
+      "unread": null,
+      "active": false
     },
     {
       "avatarSrc": "../../static/img/profile/avatar-default.png",
@@ -61,7 +67,8 @@
       "messageDate": "Пн",
       "check_sent": false,
       "check_read": false,
-      "unread": null
+      "unread": null,
+      "active": false
     },
     {
       "avatarSrc": "../../static/img/profile/avatar-default.png",
@@ -70,7 +77,8 @@
       "messageDate": "Пн",
       "check_sent": false,
       "check_read": false,
-      "unread": null
+      "unread": null,
+      "active": false
     },
     {
       "avatarSrc": "../../static/img/profile/avatar-default.png",
@@ -79,7 +87,8 @@
       "messageDate": "Пн",
       "check_sent": false,
       "check_read": false,
-      "unread": null
+      "unread": null,
+      "active": false
     },
     {
       "avatarSrc": "../../static/img/profile/avatar-default.png",
@@ -88,7 +97,8 @@
       "messageDate": "Пн",
       "check_sent": false,
       "check_read": false,
-      "unread": null
+      "unread": null,
+      "active": false
     },
     {
       "avatarSrc": "../../static/img/profile/avatar-default.png",
@@ -97,7 +107,8 @@
       "messageDate": "Пн",
       "check_sent": false,
       "check_read": false,
-      "unread": null
+      "unread": null,
+      "active": false
     }
   ]
 }

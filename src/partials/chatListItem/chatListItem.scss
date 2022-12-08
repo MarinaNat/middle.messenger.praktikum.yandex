@@ -6,7 +6,11 @@
   align-items: center;
   height: 10vh;
   padding: 1.4vh 0.8vw;
-  border-bottom: 1px solid $color-lightgrey;
+  border-bottom: 1px solid $color-border-lightblue;
+
+  &__active {
+    background-color: $color-blue;
+  }
 
   &__data {
     display: flex;
@@ -41,6 +45,7 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      color: $color-lightpurple;
     }
 
     &-unread {
@@ -49,7 +54,7 @@
       justify-content: center;
       align-items: center;
       min-height: 2vw;
-      background-color: #9e9e9e;
+      background-color: $color-blue;
       color: white;
       border-radius: 50%;
     }

@@ -1,6 +1,11 @@
 <li class="chat-message{{#if isOutgoing}} chat-message--my{{/if}}">
-  <p class="chat-message__text">{{text}}</p>
+  {{#if text}}
+  <p class="chat-message__text">{{text}}<span class="chat-message__date">{{messageDate}}</span></p>
+  {{/if}}
+  {{#if image}}
+  <img src={{image}} alt="Фото" class="chat-message__img">
   <span class="chat-message__date">{{messageDate}}</span>
+  {{/if}}
   {{#if check_sent}}
     <img src="../../static/icons/message/sent.svg" alt="Статус" class="chat-message__status">
   {{/if}}
