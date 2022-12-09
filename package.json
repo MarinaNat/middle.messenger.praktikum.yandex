@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "parcel src/pages/index.hbs --no-cache && parcel watch ./*",
+    "dev": "parcel  src/pages/index.hbs  --open --no-cache && parcel watch ./*",
     "build": "parcel build src/pages/index.hbs --no-cache --public-url ./",
     "start": "npm run build && node ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@anikin/parcel-transformer-handlebars": "~1.0.9",
     "@parcel/transformer-sass": "^2.3.2",
     "parcel": "^2.3.2"
   },
