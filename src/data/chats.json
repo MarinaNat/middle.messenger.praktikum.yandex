@@ -1,0 +1,114 @@
+{
+  "chats": [
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "Андрей",
+      "text": "Изображение",
+      "messageDate": "10:49",
+      "check_sent": false,
+      "check_read": false,
+      "unread": 2,
+      "active": false
+    },
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "Киноклуб",
+      "text": "стикер",
+      "messageDate": "12:00",
+      "check_sent": false,
+      "check_read": false,
+      "unread": null,
+      "active": false
+    },
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "Илья",
+      "text": "Друзья, у меня для вас особенный выпуск новостей!...",
+      "messageDate": "15:12",
+      "check_sent": false,
+      "check_read": false,
+      "unread": 4,
+      "active": false
+    },
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "Вадим",
+      "text": "Круто!",
+      "messageDate": "Пт",
+      "check_sent": false,
+      "check_read": false,
+      "unread": null,
+      "active": true
+    },
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "тет-а-теты",
+      "text": "И Human Interface Guidelines и Material Design рекомендуют...",
+      "messageDate": "Ср",
+      "check_sent": false,
+      "check_read": false,
+      "unread": null,
+      "active": false
+    },
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "1, 2, 3",
+      "text": "Миллионы россиян ежедневно проводят десятки часов свое...",
+      "messageDate": "Пн",
+      "check_sent": false,
+      "check_read": false,
+      "unread": null,
+      "active": false
+    },
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "Design Destroyer",
+      "text": "В 2008 году художник Jon Rafman  начал собирать...",
+      "messageDate": "Пн",
+      "check_sent": false,
+      "check_read": false,
+      "unread": null,
+      "active": false
+    },
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "Design Destroyer",
+      "text": "В 2008 году художник Jon Rafman  начал собирать...",
+      "messageDate": "Пн",
+      "check_sent": false,
+      "check_read": false,
+      "unread": null,
+      "active": false
+    },
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "Design Destroyer",
+      "text": "В 2008 году художник Jon Rafman  начал собирать...",
+      "messageDate": "Пн",
+      "check_sent": false,
+      "check_read": false,
+      "unread": null,
+      "active": false
+    },
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "Design Destroyer",
+      "text": "В 2008 году художник Jon Rafman  начал собирать...",
+      "messageDate": "Пн",
+      "check_sent": false,
+      "check_read": false,
+      "unread": null,
+      "active": false
+    },
+    {
+      "avatarSrc": "../../static/img/profile/avatar-default.png",
+      "name": "Design Destroyer",
+      "text": "В 2008 году художник Jon Rafman  начал собирать...",
+      "messageDate": "Пн",
+      "check_sent": false,
+      "check_read": false,
+      "unread": null,
+      "active": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  padding: 1.95vw;
+  background-color: $color-background;
+  gap: 10px;
+}

@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2vh;
+
+  &--row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #4c546f;
+    & .form-item__input {
+      background-color: inherit;
+      width: 50%;
+      color: $color-white;
+      text-align: right;
+    }
+  }
+
+  &__label {
+    margin-bottom: 0.7vh;
+  }
+
+  &__input {
+    height: 3.6vh;
+    padding-left: 0.5vw;
+    background-color: #424242;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,67 @@
+@import "../../styles/variables";
+
+.chat-message {
+  max-width: 402px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-end;
+  // padding: 0.9vw 0.9vw 1.6vw 0.9vw;
+  background-color: $color-grey;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  position: relative;
+
+  &--my {
+    align-self: flex-end;
+    background-color: $color-darkblue;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0;
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    padding: 0.9vw 0.9vw 1.6vw 0.9vw;
+  }
+
+  &__date {
+    color: $color-darkgrey;
+    font-size: $fs-data;
+    position: absolute;
+    right: 5px;
+    bottom: 0.2vw;
+  }
+
+  &__img {
+    border-radius: 5px;
+  }
+
+  &__img + .chat-message__date {
+    color: #ffffff;
+    font-size: 10px;
+    position: absolute;
+    right: 5px;
+    bottom: 0.2vw;
+    background-color: #424242;
+    padding: 2px 7px;
+    border-radius: 5px;
+  }
+
+  &__status {
+    height: 2.3vh;
+    margin-left: -0.5vw;
+    margin-bottom: 1.5vw;
+  }
+}
+
+// .chat-message__img + .chat-message__date {
+//   color: #ffffff;
+//   font-size: 10px;
+//   position: absolute;
+//   right: 5px;
+//   bottom: 0.2vw;
+//   background-color: #424242;
+//   padding: 2px 7px;
+//   border-radius: 5px;
+// }

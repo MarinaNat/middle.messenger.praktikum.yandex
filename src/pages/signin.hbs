@@ -1,0 +1,21 @@
+---
+title: Авторизация
+header:
+  text: Авторизация
+inputs:
+  - inputName: login
+    labelName: Логин
+    type: text
+  - inputName: password
+    labelName: Пароль
+    type: password
+button:
+  ref: ./index.hbs
+  text: Авторизоваться
+link:
+  ref: ./index.hbs
+  text: Нет аккаунта?
+---
+
+{{!< base}}
+{{> modules/form/form}}

@@ -1,0 +1,63 @@
+@import "../../styles/variables";
+
+.chat-list-item {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 1.4vh 0.8vw;
+  border-bottom: 1px solid $color-border-lightblue;
+
+  &__active {
+    background-color: $color-blue;
+  }
+
+  &__data {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    width: 100px;
+
+    &-part {
+      display: flex;
+      justify-content: space-between;
+      color: $color-grey;
+    }
+
+    &-name {
+      // font-weight: bold;
+      color: $color-ligh;
+    }
+
+    &-date-and-checked {
+      display: flex;
+    }
+
+    &-status {
+      height: 2.3vh;
+    }
+
+    &-text {
+      align-self: flex-end;
+      width: 85%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: $color-lightpurple;
+    }
+
+    &-unread {
+      display: flex;
+      min-width: 2vw;
+      justify-content: center;
+      align-items: center;
+      min-height: 2vw;
+      background-color: $color-blue;
+      color: white;
+      border-radius: 50%;
+    }
+  }
+}

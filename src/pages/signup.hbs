@@ -1,0 +1,37 @@
+---
+title: Регистрация
+header:
+    text: Регистрация
+inputs:
+  - inputName: email
+    labelName: Email
+    type: email
+  - inputName: login
+    labelName: Логин
+    type: text
+  - inputName: first_name
+    labelName: Имя
+    type: text
+  - inputName: second_name
+    labelName: Фамилия
+    type: text
+  - inputName: phone
+    labelName: Телефон
+    type: tel
+  - inputName: password
+    labelName: Пароль
+    type: password
+  - inputName: password
+    labelName: Пароль (ещё раз)
+    type: password
+
+button:
+    ref: ./index.hbs
+    text: Регистрация
+link:
+    ref: ./index.hbs
+    text: Вход
+---
+
+{{!< base}}
+{{> modules/form/form}}
